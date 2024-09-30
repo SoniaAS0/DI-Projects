@@ -5,8 +5,10 @@
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new MainPage());
+            //MainPAge = new AppShell();
+            //MainPage = new MainPage();
+            //MainPage = new ContentPageDemo();
+            MainPage = new TabbedPageDemo();
 
         }
     }
